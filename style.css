@@ -99,32 +99,53 @@ header .navbar ul{
 
 header .navbar ul li{
   margin:0 1rem;
+  font-size: 10px;
 }
 
 header .navbar ul li a{
   font-size: 2rem;
   color:var(--orange);
   transition: .2s;
+  
+}
+.code-title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: start;
+  position: absolute;
+  padding-left: 50px;
+  color: #000;
+}
+.code-title:hover{
+  color: #d72b87;
 }
 
+span{
+  padding-right: 100px;
+  padding: auto 20px;
+  position: static;
+  top: 20px;
+  align-items: start;
+}
 header .navbar ul li .active,
 header .navbar ul li a:hover{
   color:var(--violet);
 }
 
 header .logo{
-  font-size: 5.5rem;
   color: var(--violet);
   text-transform: uppercase;
+  font-size: 30px;
+  align-items: start;
 }
 
 header .logo i{
-  font-size: 6.5rem;
+  font-size: 2.2rem;
   color:var(--orange);
   padding:0 .2rem;
   margin-top: 5px;
   padding-left: 5px;
   padding-top: 5px;
+  align-items: start;
 }
 
 header .fa-bars{
